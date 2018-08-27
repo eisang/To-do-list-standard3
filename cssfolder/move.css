@@ -1,0 +1,95 @@
+
+h1 {
+	background: #2980b9;
+	color:white;
+	padding: 12px 25px;
+	font-size:15px;
+	font-weight: normal;
+	font-family:sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+	
+}
+
+
+
+
+body {
+	 font-family: sans-serif;
+	 font-size: 20px;
+	 background: #fc5c7d; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+	 background: linear-gradient(to right, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.fas {
+	float:left;
+}
+
+.far {
+	float:right;
+	font-size: 20px;
+}
+
+#moveTaskInput {
+				font-size: 18px;
+				color: #2980b9;
+				background-color: #f7f7f7;
+				width: 100%;
+				padding: 12px 12px 12px 17px;	
+				box-sizing: border-box;	
+				/*margin-bottom:0;
+				padding-bottom: 0;	
+						*/
+	}
+
+button {
+ display: hidden;
+
+}
+
+#bin .far {
+			visibility: hidden;
+
+}
+  /*.far  button{
+	margin: 0;
+	padding: 0;
+
+}*/
+ 
+
+#container {
+		width: 400px;
+		margin:150px auto;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.6); 
+		background: #f7f7f7;
+}
+
+body ul{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+
+
+
+li {
+	background: #fff;
+    height:30px;
+	line-height: 45px;
+	list-style: none;
+	margin-bottom:5px;
+	padding: 0 10px 10px 10px ;
+
+	margin-top: 0;
+	/*width:600px;*/
+}
+
+li:nth-child(2n) {
+				background: #c1ccd6;
+				
+}
+
